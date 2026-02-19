@@ -1,0 +1,58 @@
+# AIOS Project Configuration
+version: 2.1.0
+
+project:
+  name: projeto-ct2
+  type: greenfield
+  owner: qualmarcas
+  repository: https://github.com/qualmarcas/projeto-ct2
+  created_at: 2026-02-19
+
+environment:
+  bootstrapped: true
+  bootstrap_date: 2026-02-19T20:28:00Z
+  os: Windows 10
+  node_version: 22.21.0
+  npm_version: 10.9.4
+  git_version: 2.51.1
+
+workflow:
+  current: greenfield-fullstack
+  phase: 1-bootstrap-complete
+
+permissions:
+  mode: ask # Permission modes: explore (read-only), ask (confirm), auto (autonomous)
+
+settings:
+  auto_update_status: true
+  quality_gates_enabled: true
+
+cli_tools:
+  essential:
+    git:
+      installed: true
+      version: 2.51.1
+    gh:
+      installed: true
+      version: 2.87.0
+      authenticated: true
+    node:
+      installed: true
+      version: 22.21.0
+    npm:
+      installed: true
+      version: 10.9.4
+  recommended:
+    docker:
+      installed: false
+    supabase:
+      installed: false
+    railway:
+      installed: false
+
+github:
+  owner: qualmarcas
+  repository: projeto-ct2
+  url: https://github.com/qualmarcas/projeto-ct2
+  visibility: private
+  branch: main

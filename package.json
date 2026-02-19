@@ -1,0 +1,19 @@
+{
+  "name": "projeto-ct2",
+  "version": "0.1.0",
+  "description": "Created with Synkra AIOS - AI-Orchestrated Full Stack Development",
+  "scripts": {
+    "dev": "echo 'Add your dev script'",
+    "build": "echo 'Add your build script'",
+    "test": "echo 'Add your test script'",
+    "lint": "echo 'Add your lint script'",
+    "typecheck": "echo 'Add your typecheck script'"
+  },
+  "keywords": ["aios", "fullstack"],
+  "author": "qualmarcas",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
